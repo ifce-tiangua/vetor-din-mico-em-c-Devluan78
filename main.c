@@ -12,7 +12,6 @@ int main(){
 
     for(i=1;i<=n;i++){
         p[i]=i;
-        scanf("%d",&p[i]);
     }
     
     for(i=1;i<n;i++){
