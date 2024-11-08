@@ -9,25 +9,25 @@ int main(){
     scanf("%d",&n);
 
     if(n == 0){
-        printf("[vazio\n];
-    }        
+        printf("[vazio];
+    }else {    
     
     p = (int*)malloc(n * sizeof(int));
 
     for(i=0;i<=n;i++){
-        p[i]=i+1;
+        scanf("%d",&p[i]);
     }
 
     printf("[");
     for(i=0;i<n;i++){
         printf("%d ",p[i]);
         if(i<n-1){
-            printf(",");
+            printf(", ");
         }
     }
-    printf("]\n");
+    printf("]");
    
    free(p);
-
+}
     return 0;
 }
