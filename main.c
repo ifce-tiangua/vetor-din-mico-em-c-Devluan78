@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&n);
 
     if(n == 0){
-        printf("[vazio];
+        printf("[vazio]");
     }else {    
     
     p = (int*)malloc(n * sizeof(int));
