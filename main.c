@@ -7,7 +7,11 @@ int main(){
     int *p;
 
     scanf("%d",&n);
-  
+
+    if(n == 0){
+        printf("[vazio\n];
+    }        
+    
     p = (int*)malloc(n * sizeof(int));
 
     for(i=0;i<=n;i++){
